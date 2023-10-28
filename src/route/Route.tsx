@@ -1,5 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom'
 
+
+
 const Router = createBrowserRouter([
   {
     path: '*',
@@ -68,7 +70,7 @@ const Router = createBrowserRouter([
         children: [
           {
             index: true,
-            element: <p>List user</p>
+            element: <p>user</p>
           },
           {
             path: 'create',
