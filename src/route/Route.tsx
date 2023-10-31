@@ -1,10 +1,13 @@
 import { createBrowserRouter } from 'react-router-dom'
+import { Admin } from '~/pages/admin/Admin_product'
+import { User_product } from '~/pages/User/user_admin'
+
 
 
 
 const Router = createBrowserRouter([
   {
-    path: '*',
+    path: '',
     element: <p>Page Not Found</p>
   },
 
@@ -13,7 +16,7 @@ const Router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <p>Dashboard</p>
+        element: <Admin/>
       },
       {
         path: 'category',
@@ -69,8 +72,14 @@ const Router = createBrowserRouter([
         path: 'user',
         children: [
           {
+           
+            element: <Admin/>,
+         
+            children : [
+          {
             index: true,
-            element: <p>user</p>
+            element: <User_product/>
+            
           },
           {
             path: 'create',
@@ -88,6 +97,8 @@ const Router = createBrowserRouter([
             path: 'destroy',
             element: <p>Destroy Success</p>
           }
+        ]
+        }
         ]
       },
       {
