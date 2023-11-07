@@ -1,5 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom'
 import { Admin } from '~/pages/admin/Admin_product'
+import { HomePage } from '~/pages/trangchu/home'
 import { User_product } from '~/pages/User/user_admin'
 
 
@@ -8,7 +9,7 @@ import { User_product } from '~/pages/User/user_admin'
 const Router = createBrowserRouter([
   {
     path: '',
-    element: <p>Page Not Found</p>
+    element: <HomePage/>
   },
 
   {
