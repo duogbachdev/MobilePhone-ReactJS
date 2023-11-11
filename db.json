@@ -1,0 +1,36 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "tran ba huy",
+      "price": 100.000,
+      "img": "https://tse3.mm.bing.net/th?id=OIP.vKoyFGbWDeRFUPwoSZ0fKAHaKR&pid=Api&P=0&h=180"
+    },{
+      "id": 2,
+      "name": "tran ba huy",
+      "price": 100.000,
+      "img": "https://tse3.mm.bing.net/th?id=OIP.vKoyFGbWDeRFUPwoSZ0fKAHaKR&pid=Api&P=0&h=180"
+    },{
+      "id": 3,
+      "name": "tran ba huy",
+      "price": 100.000,
+      "img": "https://tse3.mm.bing.net/th?id=OIP.vKoyFGbWDeRFUPwoSZ0fKAHaKR&pid=Api&P=0&h=180"
+    },{
+      "id": 4,
+      "name": "tran ba huy",
+      "price": 100.000,
+      "img": "https://tse3.mm.bing.net/th?id=OIP.vKoyFGbWDeRFUPwoSZ0fKAHaKR&pid=Api&P=0&h=180"
+    }
+    
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
